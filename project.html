@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <div class="page-container">
+        <div class="navbar">
+            <span class="logo">
+                <img src = "26352153.png" alt="SWC-logo" width="50px" height="50px">
+            </span>
+
+            <div class="nav-search">
+
+                <i class="material-symbols-outlined">
+                    search</i>
+                <form id="form">
+                    <input 
+                    id = "search" type="search" placeholder="Quick Search">
+                </form>
+            </div>
+        </div>
+
+        <div class="sidebar_wrapper">
+            <aside class="sidebar">
+
+                <a href="#" class="sidebar_link">
+                    <div class="sidebar_icon-container">
+                        <i class="material-symbols-outlined">
+                            search</i>
+                    </div>
+
+                    <span class="sidebar_label">
+                        <input type = "search" placeholder = "Search">
+                    </span>
+                </a>
+
+
+                <a href="#" class="sidebar_link">
+                    <div class="sidebar_icon-container">
+                        <i class="material-symbols-outlined">
+                            group
+                        </i>
+                    </div>
+    
+                    <span class="sidebar_label">
+                        All Team
+                    </span>
+                </a>
+    
+                <a href="#" class="sidebar_link">
+                    <div class="sidebar_icon-container">
+                        <i class="material-symbols-outlined">
+                            hub
+                        </i>
+                    </div>
+    
+                    <span class="sidebar_label">
+                        Core
+                    </span>
+                </a>
+    
+                <a href="#" class="sidebar_link">
+                    <div class="sidebar_icon-container">
+                        <i class="material-symbols-outlined">
+                            deployed_code
+                        </i>
+                    </div>
+    
+                    <span class="sidebar_label">
+                        Developers
+                    </span>
+                </a>
+    
+                <a href="#" class="sidebar_link">
+                    <div class="sidebar_icon-container">
+                        <i class="material-symbols-outlined">
+                            draw
+                        </i>
+                    </div>
+    
+                    <span class="sidebar_label">
+                        Designers
+                    </span>
+                </a>
+    
+                <a href="#" class="sidebar_link">
+                    <div class="sidebar_icon-container">
+                        <i class="material-symbols-outlined">
+                            person
+                        </i>
+                    </div>
+    
+                    <span class="sidebar_label">
+                        Mentors
+                    </span>
+                </a>
+
+                <div class="sidebar_label">
+                    <button class="sb_btn"> +ADD</button>
+                </div>
+            </aside>
+        </div>
+
+        
+        <main class="main">            
+            <div class="movie_cards">
+                <div class="movie">
+                    <img src = "", alt = "title" width="300">
+                    
+                    <div class="movie-info">
+                        <div class ="genre">
+                            <span>Genre</span></div>
+                        <div class = "stars"> Stars</div>
+                        <span class = "title">Title</span>
+                        
+                    </div>
+                </div>   
+            </div>
+        </main>
+
+        <div class="pagination">
+            <div class="page" id="prev">Previous Page</div>
+            <div class="current" id="current">1</div>
+            <div class="page" id="next">Next Page</div>
+    
+        </div>
+    </div>
+    <script src="sidebarDrawer.js"></script>
+</body>
+</html>
